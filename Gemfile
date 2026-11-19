@@ -43,6 +43,10 @@ gem "image_processing", "~> 1.2"
 
 # Auth (Admin + Merchant)
 gem "devise"
+gem "devise-i18n"
+
+# French translations (validation errors, dates, numbers)
+gem "rails-i18n"
 
 # Background jobs
 gem "sidekiq"
